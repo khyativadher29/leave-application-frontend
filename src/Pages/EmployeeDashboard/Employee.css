@@ -1,0 +1,110 @@
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .leave-types {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .leave-box {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .leave-box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .leave-box p {
+    font-size: 14px;
+    color: #888;
+  }
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: #fff;
+  }
+  
+  .user-info {
+    font-size: 18px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .view-leave-button,
+  .logout-button {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .apply-leave-button{
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-leave-button:hover,
+  .logout-button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  /* Styles for the leave container */
+.leave-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Styles for each leave box */
+.leave-box {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.leave-box h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.leave-box p {
+  margin: 0;
+}
+
+/* Optional hover effect for leave boxes */
+.leave-box:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+  

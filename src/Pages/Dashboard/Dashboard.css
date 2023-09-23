@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: #fff;
+  }
+  
+  .user-info {
+    font-size: 18px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .view-leave-button,
+  .logout-button {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .apply-leave-button{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-leave-button:hover,
+  .logout-button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  .button-enabled {
+    background-color: #007bff; /* Blue background color */
+    color: #fff; /* White text color */
+    cursor: pointer; /* Change cursor to pointer */
+  }
+  
+  /* Disabled button style */
+  .button-disabled {
+    background-color: #ccc; /* Grayed-out background color */
+    color: #666; /* Darker text color */
+    cursor: not-allowed; /* Change cursor to not-allowed */
+  }
+  
